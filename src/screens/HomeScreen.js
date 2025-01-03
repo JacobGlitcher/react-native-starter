@@ -12,6 +12,7 @@ const HomeScreen = ({ navigation }) => {
     { title: 'Go To Components Demo', component: 'Components', id: '1' },
     { title: 'Go To List Demo', component: 'List', id: '2' },
     { title: 'Go To Image Demo', component: 'Image', id: '3' },
+    { title: 'Go To Counter Demo', component: 'Counter', id: '4' },
   ]
 
   return (
