@@ -1,4 +1,4 @@
-import {Text, StyleSheet, View, FlatList} from 'react-native'
+import { Text, StyleSheet, View, FlatList } from 'react-native'
 
 const styles = StyleSheet.create({
   text: {
@@ -22,7 +22,7 @@ const ListScreen = () => {
     <FlatList
       data={friends}
       keyExtractor={(item) => item.id}
-      renderItem={({item}) => {
+      renderItem={({ item }) => {
         return <Text style={styles.text}>{item.name} - Age {item.age}</Text>
       }}
     />
