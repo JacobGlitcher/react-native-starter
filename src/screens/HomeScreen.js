@@ -18,6 +18,7 @@ const HomeScreen = ({ navigation }) => {
     { title: 'Go To Image Demo', component: 'Image', id: '3' },
     { title: 'Go To Counter Demo', component: 'Counter', id: '4' },
     { title: 'Go To Color Demo', component: 'Color', id: '5' },
+    { title: 'Go To Square Demo', component: 'Square', id: '6' },
   ]
 
   return (
